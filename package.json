@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "Adds classroom assignments with updated grades",
   "main": "server.js",
+  "scripts": {
+    "start" : "node server.js"
+  },
   "dependencies": {
     "express": "^4.16.3"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "mocha"
   },
   "repository": {
     "type": "git",
