@@ -1,0 +1,28 @@
+{
+  "name": "assignment-tracker",
+  "version": "1.0.0",
+  "description": "Adds classroom assignments with updated grades",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinNietz/assignment-tracker.git"
+  },
+  "keywords": [
+    "node",
+    "git",
+    "music"
+  ],
+  "author": "Justin Nietzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustinNietz/assignment-tracker/issues"
+  },
+  "homepage": "https://github.com/JustinNietz/assignment-tracker#readme"
+}
