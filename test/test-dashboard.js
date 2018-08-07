@@ -43,7 +43,7 @@ describe("Shopping List", function() {
     // and returns a Promise, so we just return it.
     return chai
       .request(app)
-      .get("/")
+      .get("/home")
       .then(function(res) {
         expect(res).to.have.status(200);
         expect(res).to.be.html;

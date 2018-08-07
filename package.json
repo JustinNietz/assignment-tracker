@@ -5,10 +5,12 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test" : "mocha --exit"
+    "test": "mocha"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mongoose": "^5.2.7",
+    "morgan": "^1.9.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
