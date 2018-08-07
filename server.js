@@ -7,9 +7,14 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
+app.get("/home", (req, res) => {
+    res.sendFile(__dirname + "/public/dashboard.html");
+  });
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
+
+
 
 // both runServer and closeServer need to access the same
 // server object, so we declare `server` here, and then when
